@@ -5,8 +5,12 @@
 # Video / render outputs (large; exceeds GitHub file limits)
 *.mp4
 renders/
-main_render/
 backup/
+main_render/renders/solar_management_frames/
+main_render/renders/*.mp4
+# Allow preview images for README
+!main_render/renders/angled_campus_preview.png
+!main_render/renders/test_top_down_f2400.png
 
 # Python
 __pycache__/
