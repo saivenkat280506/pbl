@@ -1,0 +1,17 @@
+# Blender files (large binaries)
+*.blend
+*.blend1
+
+# Video / render outputs (large; exceeds GitHub file limits)
+*.mp4
+renders/
+main_render/
+backup/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS
+.DS_Store
